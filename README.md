@@ -59,6 +59,8 @@ The **Project Showcase Website** is a dynamic platform where users can display t
 Create a **.env** file in the backend folder:
 ```
 MONGO_URI=your_mongo_connection_string
+EMAIL = your_company_mail
+EMAIL_PASSWORD = your_email_pass
 JWT_SECRET=your_secret_key
 PORT=5000
 ```
@@ -80,3 +82,11 @@ Feel free to contribute by submitting issues or pull requests.
 ## License
 This project is open-source and available under the MIT License.
 
+## 📽️ Demo Video
+
+Watch the full project demonstration and presentation here:  
+👉 [YouTube Video Link](https://youtu.be/-7je8hHQoKA)
+## 📹 Presentation
+
+Watch the full presentation here:  
+👉 [Presenatation Link](https://www.canva.com/design/DAGmCdNuR0Y/XjlNMhIbtygi1_IkZ0Fy4A/edit)

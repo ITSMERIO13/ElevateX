@@ -1,0 +1,41 @@
+{
+  "name": "elevatex",
+  "module": "index.js",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "cd server && nodemon server.js",
+    "client": "cd client && bun run dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@material-tailwind/react": "^2.1.10",
+    "@react-spring/web": "^9.7.5",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "emoji-mart": "^5.6.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "framer-motion": "^12.6.3",
+    "gsap": "^3.12.7",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.487.0",
+    "mongoose": "^8.13.1",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "react-hot-toast": "^2.5.2"
+  }
+}
